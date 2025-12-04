@@ -3,12 +3,12 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
-import Stair from "./component/common/Stair.jsx"
+import Stair1 from "./component/common/Stair1.jsx"
 createRoot(document.getElementById('root')).render(
   <StrictMode>
   
     <BrowserRouter>
-    <Stair />
+    <Stair1 />
      <App />
     </BrowserRouter>
    

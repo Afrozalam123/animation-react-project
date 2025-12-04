@@ -49,7 +49,7 @@ const Agence = () => {
   
   return (
    <div className='section1'>
-    <div ref={imageDivRef} className='  absolute  overflow-hidden  h-[20vw] w-[15vw]  top-85  left-[30vw] rounded-3xl '>
+    <div ref={imageDivRef} className='  absolute  overflow-hidden  h-[20vw] w-[15vw]  top-56  left-[40vw] rounded-3xl '>
     <img ref={imageRef} className='h-full w-full object-cover ' src='https://k72.ca/images/teamMembers/Michele_480X640.jpg?w=480&h=640&fit=crop&s=ce85dc6d140947736baa739d0e59dab2'/>
     </div>
 
@@ -75,5 +75,4 @@ Douze</h1>
 }
 
 export default Agence
-
 

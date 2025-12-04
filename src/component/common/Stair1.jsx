@@ -2,7 +2,7 @@ import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef } from "react";
 
-const Stair = ({ pathname }) => {
+const Stair1 = ({ pathname }) => {
   const parentRef = useRef(null);
 
   useGSAP(() => {
@@ -45,4 +45,4 @@ const Stair = ({ pathname }) => {
   );
 };
 
-export default Stair;
+export default Stair1;
